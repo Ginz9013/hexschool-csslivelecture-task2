@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+.paragraph-l {
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.paragraph-s {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.font-italic-bold {
+  font-weight: bold;
+  font-style: italic;
+}
+
+header {
+  background: url("img/banner.png") no-repeat center center;
+  width: 100%;
+  height: 958px;
+}
+
+header h1 {
+  padding-bottom: 32px;
+}
+
+header P {
+  width: 315px;
+}
+
+header ul.header__slogan {
+  width: 315px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+main .about {
+  padding: 56px 0;
+}
+
+main .about .about__tittle {
+  padding-bottom: 40px;
+}
+
+main .about img {
+  padding-bottom: 20px;
+}
+
+main .about ul {
+  width: 412px;
+  font-weight: bold;
+}
+
+main .about .personal-info {
+  padding-bottom: 24px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid #000;
+}
+
+main .myBrand {
+  padding: 56px 0 160px 0;
+}
+
+main .myBrand .myBrand__tittle {
+  margin-bottom: 12px;
+}
+
+main .myBrand .myBrand__slogan {
+  margin-bottom: 32px;
+}
+
+main .myBrand .myBrand__description {
+  margin-bottom: 68px;
+}
+
+main .myBrand .myBrand__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 1200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .myBrand .myBrand__img li {
+  margin-top: 40px;
+}
+
+main .myBrand .myBrand__img .myBrand__img__second {
+  margin-right: 24px;
+}
+
+main .otherWorks {
+  padding: 56px 0 144px 0;
+}
+
+main .otherWorks .otherWorks__tittle {
+  margin-bottom: 16px;
+}
+
+main .otherWorks .otherWorks__img {
+  margin-top: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .otherWorks .otherWorks__img .worksCard {
+  text-align: center;
+  margin-right: 24px;
+  margin-bottom: 48px;
+}
+
+footer {
+  padding: 64px 0;
+}
+
+footer .contact__tittle {
+  margin-bottom: 16px;
+}
+
+.bg-dark {
+  background: #000;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.work {
+  list-style: disc;
+}
+
+.work li::marker {
+  color: #891818;
+}
+/*# sourceMappingURL=all.css.map */

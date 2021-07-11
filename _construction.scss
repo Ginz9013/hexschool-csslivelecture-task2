@@ -1,0 +1,139 @@
+// 結構--通用
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: $Font-Size-H1;
+}
+
+h2{
+  font-size: $Font-Size-H2;
+}
+
+.paragraph-l{
+  font-size: $Font-Size-P-l;
+  line-height: 42px;
+}
+
+.paragraph-s{
+  font-size: $Font-Size-P-s;
+  line-height: 30px;
+}
+
+.font-italic-bold{
+  font-weight: bold;
+  font-style: italic;
+}
+
+// 單獨
+
+header{
+  background: url("img/banner.png") no-repeat center center;
+  width: 100%;
+  height: 958px;
+
+  h1{
+    padding-bottom: 32px;
+  }
+
+  P{
+    width: 315px;
+  }
+
+  ul.header__slogan{
+    width: 315px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+}
+
+main{
+  .about{
+    padding: 56px 0;
+
+    .about__tittle{
+      padding-bottom: 40px;
+    }
+
+    img{
+      padding-bottom: 20px;
+    }
+
+    ul{
+      width: 412px;
+      font-weight: bold;
+    }
+
+    .personal-info{
+      padding-bottom: 24px;
+      margin-bottom: 28px;
+      border-bottom: 1px solid #000;
+    }
+  }
+
+  .myBrand{
+    padding: 56px 0 160px 0;
+
+    .myBrand__tittle{
+      margin-bottom: 12px;
+    }
+
+    .myBrand__slogan{
+      margin-bottom: 32px;
+    }
+
+    .myBrand__description{
+      margin-bottom: 68px;
+    }
+
+    .myBrand__img{
+      display: flex;
+      flex-wrap: wrap;
+      width: 1200px;
+      justify-content: center;
+
+      li{
+        margin-top: 40px;
+      }
+
+      .myBrand__img__second{
+        margin-right: 24px;
+      }
+    }
+  }
+
+  .otherWorks{
+    padding: 56px 0 144px 0;
+
+    .otherWorks__tittle{
+      margin-bottom: 16px;
+    }
+
+    .otherWorks__img{
+      margin-top: 56px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .worksCard{
+        text-align: center;
+        margin-right: 24px;
+        margin-bottom: 48px;
+      }
+    }
+  }
+}
+
+footer{
+  padding: 64px 0;
+
+  .contact__tittle{
+    margin-bottom: 16px;
+  }
+}

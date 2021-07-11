@@ -1,0 +1,17 @@
+// 通用
+.bg-dark{
+  background: #000;
+}
+
+.color-white{
+  color: #ffffff;
+}
+
+// 單獨
+.work{
+  list-style: disc;
+}
+
+.work li::marker{
+  color: $Primary-Color;
+}
