@@ -162,7 +162,7 @@ main .myBrand .myBrand__img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 1200px;
+  max-width: 1200px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -186,6 +186,7 @@ main .otherWorks .otherWorks__tittle {
 
 main .otherWorks .otherWorks__img {
   margin-top: 56px;
+  max-width: 1224px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
